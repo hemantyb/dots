@@ -218,8 +218,9 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
 spawn-at-startup "elephant"
+spawn-at-startup "alacritty"
 spawn-sh-at-startup "wlsunset -S 17:00 -s 06:00 -T 6500 -t 4000"
-spawn-sh-at-startup "swaybg -i ~/wallpapers/Beach-Dark.png"
+spawn-sh-at-startup "swaybg -i ~/wallpapers/Space-Nebula.png"
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 hotkey-overlay {
