@@ -8,7 +8,8 @@
 	"swap-icon-label": false,
 	"height": 42,
 	"modules-left": [
-		"hyprland/workspaces"
+		"hyprland/workspaces",
+		"niri/workspaces"
 	],
 	"modules-center": [
 		"clock"
@@ -26,6 +27,13 @@
 		"format-icons": {
 			"active": "",
 			"default": ""
+		}
+	},
+	"niri/workspaces": {
+		"format": "{icon}",
+		"format-icons": {
+			"default": "",
+			"active": ""
 		}
 	},
 	"clock": {
