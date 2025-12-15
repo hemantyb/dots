@@ -217,7 +217,6 @@ layout {
 // See the binds section below for more spawn examples.
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
-spawn-at-startup "elephant"
 spawn-at-startup "alacritty"
 spawn-sh-at-startup "wlsunset -S 17:00 -s 06:00 -T 6500 -t 4000"
 spawn-sh-at-startup "swaybg -i ~/wallpapers/Space-Nebula.png"
@@ -314,8 +313,8 @@ binds {
         spawn "ghostty"
     }
     // Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
-    Mod+D hotkey-overlay-title="Run an Application: walker" {
-        spawn "walker"
+    Mod+D hotkey-overlay-title="Run an Application: fuzzel" {
+        spawn "fuzzel"
     }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" {
         spawn "swaylock"
