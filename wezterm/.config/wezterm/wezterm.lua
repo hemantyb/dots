@@ -30,6 +30,9 @@ bar.apply_to_config(config, {
 		workspace = {
 			enabled = false,
 		},
+		pane = {
+			enabled = false,
+		},
 	},
 })
 
