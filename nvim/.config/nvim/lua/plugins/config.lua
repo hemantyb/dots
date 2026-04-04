@@ -55,3 +55,4 @@ require("blink.cmp").setup({
 		implementation = "prefer_rust_with_warning",
 	},
 })
+require("gitsigns").setup({})

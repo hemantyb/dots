@@ -10,9 +10,10 @@ local plugins = {
 	"https://github.com/windwp/nvim-autopairs",
 	"https://github.com/ibhagwan/fzf-lua",
 	"https://github.com/romgrk/barbar.nvim",
+	"https://github.com/lewis6991/gitsigns.nvim",
 	{
 		src = "https://github.com/saghen/blink.cmp",
-		version = 'v1.10.1',
+		version = "v1.10.1",
 	},
 }
 
