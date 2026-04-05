@@ -18,5 +18,5 @@ local plugins = {
 
 vim.pack.add(plugins)
 
-require("plugins.config")
+require("plugins.specs")
 require("plugins.lsp")
