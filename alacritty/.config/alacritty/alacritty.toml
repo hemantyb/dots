@@ -1,6 +1,6 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/dark_pride.toml"
+    "~/.config/alacritty/themes/ayu_dark.toml"
 ]
 
 [env]
@@ -29,10 +29,8 @@ style = "Italic"
 style = "Block"
 
 [window]
-dynamic_padding = true
 opacity = 0.96
-# decorations = "None"
 
 [window.dimensions]
-columns = 120
-lines = 30
+columns = 110
+lines = 28
