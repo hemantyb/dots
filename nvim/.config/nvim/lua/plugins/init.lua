@@ -11,6 +11,7 @@ local plugins = {
 	"https://github.com/ibhagwan/fzf-lua",
 	"https://github.com/lewis6991/gitsigns.nvim",
 	"https://github.com/akinsho/bufferline.nvim",
+	"https://github.com/akinsho/toggleterm.nvim",
 	{
 		src = "https://github.com/saghen/blink.cmp",
 		version = "v1.10.1",
