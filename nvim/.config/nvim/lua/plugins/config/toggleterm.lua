@@ -1,6 +1,6 @@
 require("toggleterm").setup({
 	size = 20,
-	open_mapping = [[<c-h>]],
+	open_mapping = [[<A-h>]],
 	hide_numbers = true,
 	shade_filetypes = {},
 	shade_terminals = true,
@@ -9,7 +9,7 @@ require("toggleterm").setup({
 	insert_mappings = true,
 	persist_mode = true,
 	float_opts = {
-		border = "curved",
+		border = "single",
 	},
 	terminal_mappings = true,
 	persist_size = true,

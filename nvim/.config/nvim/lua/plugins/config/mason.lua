@@ -8,7 +8,7 @@ require("mason").setup({
 		backdrop = 60,
 		width = 0.8,
 		height = 0.9,
-		border = "rounded",
+		border = "single",
 	},
 	max_concurrent_installers = 5,
 })
