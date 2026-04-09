@@ -12,10 +12,10 @@ vim.lsp.enable(servers)
 
 vim.diagnostic.config({
 	virtual_text = {
-		severity = { min = vim.diagnostic.severity.WARN }, -- Only show for WARN and above
+		severity = { min = vim.diagnostic.severity.WARN },
 		spacing = 4,
-		-- prefix = "●",
 		prefix = "💔",
+		-- prefix = "●",
 		-- prefix = "⚠",
 	},
 	signs = false,
