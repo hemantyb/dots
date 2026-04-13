@@ -1,7 +1,6 @@
 local fzf = require("fzf-lua")
 
 vim.keymap.set("n", "<Leader>e", ":NvimTreeFocus<CR>")
-vim.keymap.set("n", "<Leader>x", ":BufferClose<CR>")
 vim.keymap.set("n", "<C-n>", ":NvimTreeClose<CR>")
 
 vim.keymap.set("n", "<leader>ff", fzf.files, { desc = "Fzf Files" })
