@@ -46,6 +46,7 @@ layout {
 spawn-at-startup "waybar"
 spawn-at-startup "vicinae" "server"
 spawn-sh-at-startup "swaybg -i ~/wallpapers/wallpaper.jpg"
+spawn-sh-at-startup "wlsunset -S 17:00 -s 06:00 -T 6500 -t 4000"
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 window-rule {
     match app-id="firefox$" title="^Picture-in-Picture$"
