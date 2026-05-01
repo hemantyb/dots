@@ -8,7 +8,6 @@
 	"swap-icon-label": false,
 	"height": 42,
 	"modules-left": [
-		"hyprland/workspaces",
 		"niri/workspaces"
 	],
 	"modules-center": [
