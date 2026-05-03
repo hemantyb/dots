@@ -45,8 +45,8 @@ layout {
 }
 spawn-at-startup "waybar"
 spawn-at-startup "vicinae" "server"
-spawn-sh-at-startup "swaybg -i ~/wallpapers/wallpaper.jpg"
-spawn-sh-at-startup "wlsunset -S 17:00 -s 06:00 -T 6500 -t 4000"
+spawn-sh-at-startup "swaybg -i ~/wallpapers/wallpaper.png"
+spawn-sh-at-startup "wlsunset -S 06:00 -s 17:00 -T 6500 -t 4000"
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 window-rule {
     match app-id="firefox$" title="^Picture-in-Picture$"
@@ -70,6 +70,16 @@ window-rule {
         blur true
     }
 }
+layer-rule {
+    match namespace="^waybar$"
+
+    background-effect {
+        blur true
+        xray true
+        noise 0.02
+    }
+}
+
 binds {
     Mod+D repeat=false {
         spawn "vicinae" "toggle"
@@ -113,10 +123,10 @@ binds {
         spawn-sh "playerctl next"
     }
     XF86MonBrightnessUp allow-when-locked=true {
-        spawn "brightnessctl" "--class=backlight" "set" "+10%"
+        spawn "brightnessctl" "--class=backlight" "set" "+2%"
     }
     XF86MonBrightnessDown allow-when-locked=true {
-        spawn "brightnessctl" "--class=backlight" "set" "10%-"
+        spawn "brightnessctl" "--class=backlight" "set" "2%-"
     }
     Mod+O repeat=false {
         toggle-overview
