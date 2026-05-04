@@ -72,14 +72,17 @@ window-rule {
 }
 layer-rule {
     match namespace="^waybar$"
-
     background-effect {
         blur true
         xray true
         noise 0.02
     }
 }
-
+recent-windows {
+    highlight {
+        corner-radius 20
+    }
+}
 binds {
     Mod+D repeat=false {
         spawn "vicinae" "toggle"
