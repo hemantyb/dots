@@ -87,6 +87,9 @@ recent-windows {
         corner-radius 20
     }
 }
+hotkey-overlay {
+    skip-at-startup
+}
 binds {
     Mod+D repeat=false {
         spawn "vicinae" "toggle"
