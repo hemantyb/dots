@@ -72,8 +72,8 @@
 			"critical": 30
 		},
 		"format": "{icon}\n{capacity}",
-		"format-charging": " \n{capacity}",
-		"format-plugged": " \n{capacity}",
+		"format-charging": "  \n{capacity}",
+		"format-plugged": "  \n{capacity}",
 		"format-alt": "{time}\n{icon}",
     "justify": "center",
 		"format-icons": [
@@ -113,9 +113,9 @@
 			"hands-free": " ",
 			"headset": " ",
 			"default": [
-				"",
-				"",
-				""
+				" ",
+				" ",
+				" "
 			]
 		}
 	}

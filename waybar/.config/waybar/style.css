@@ -16,11 +16,9 @@ window#waybar {
 #pulseaudio,
 #network,
 #backlight {
-  padding: 0px 10px;
-  margin: 2px 0px;
-	margin-bottom: 2px;
-  border: 1px solid #181825;
-  border-radius: 10px;
+  padding: 3px 5px;
+  margin: 4px 4px;
+  border-top: 1px solid #181825;
 }
 
 #workspaces button.active {
