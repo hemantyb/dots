@@ -1,9 +1,10 @@
 * {
   border: none;
   border-radius: 0;
-  font-family: "JetBrainsMono Nerd Font", "FiraCode Nerd Font", monospace;
+  font-family: "JetBrainsMono Nerd Font";
   font-size: 13px;
   min-height: 0;
+	padding: 2px;
 }
 
 window#waybar {
@@ -18,7 +19,7 @@ window#waybar {
 #backlight {
   padding: 3px 5px;
   margin: 4px 4px;
-  border-top: 1px solid #181825;
+  border-top: 2px solid #181825;
 }
 
 #workspaces button.active {
