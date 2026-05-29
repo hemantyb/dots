@@ -84,7 +84,7 @@ layer-rule {
 }
 recent-windows {
     highlight {
-        corner-radius 20
+        corner-radius 12
     }
     binds {
         Alt+Tab {
