@@ -32,15 +32,25 @@ window {
 }
 
 button {
-  border-color: #89b4fa;
+  border-color: #b153a7;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 0px;
   background-color: #181825;
-  background-size: 25%;
   margin: 5px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+
+  background-position: center 35%;
+  padding-top: 45px;
 }
 
 button:focus,
 button:active,
 button:hover {
   background-color: rgb(48, 50, 66);
+  border-color: #b153a7;
   outline-style: none;
 }
