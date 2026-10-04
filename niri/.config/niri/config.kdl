@@ -24,14 +24,14 @@ layout {
     }
     focus-ring {
         off
-        width 1
-        active-color "#7fc8ff"
+        width 3
+        active-color "#b153a7ff"
         inactive-color "#505050"
+        urgent-color "#9b0000"
     }
     border {
-        off
-        width 1
-        active-color "#ffc87f"
+        width 3
+        active-color "#b153a7ff"
         inactive-color "#505050"
         urgent-color "#9b0000"
     }
@@ -44,8 +44,7 @@ layout {
     }
 }
 spawn-at-startup "waybar"
-spawn-at-startup "vicinae" "server"
-spawn-sh-at-startup "swaybg -i ~/wallpapers/wallpaper.png"
+spawn-sh-at-startup "swaybg -i ~/wallpapers/wallpaper.jpg"
 spawn-sh-at-startup "wlsunset -S 06:00 -s 17:00 -T 6500 -t 4000"
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 window-rule {
@@ -53,10 +52,6 @@ window-rule {
     open-floating true
 }
 window-rule {
-    open-floating true
-}
-window-rule {
-    geometry-corner-radius 12
     clip-to-geometry true
 }
 window-rule {
@@ -75,7 +70,7 @@ window-rule {
 }
 layer-rule {
     match namespace="^waybar$"
-    opacity 0.7
+    opacity 0.9
     background-effect {
         blur true
         xray true
@@ -84,7 +79,7 @@ layer-rule {
 }
 recent-windows {
     highlight {
-        corner-radius 12
+        corner-radius 0
     }
     binds {
         Alt+Tab {
@@ -105,14 +100,17 @@ hotkey-overlay {
     skip-at-startup
 }
 binds {
-    Mod+D repeat=false {
-        spawn "vicinae" "toggle"
+    Mod+D {
+        spawn "fuzzel"
+    }
+    Mod+M {
+        spawn "wlogout"
     }
     Mod+Shift+Slash {
         show-hotkey-overlay
     }
     Mod+T hotkey-overlay-title="Open a Terminal: ghostty" {
-        spawn "ghostty"
+        spawn "alacritty"
     }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" {
         spawn "swaylock"
@@ -132,8 +130,6 @@ binds {
     XF86AudioMicMute allow-when-locked=true {
         spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"
     }
-    // Example media keys mapping using playerctl.
-    // This will work with any MPRIS-enabled media player.
     XF86AudioPlay allow-when-locked=true {
         spawn-sh "playerctl play-pause"
     }
@@ -422,7 +418,7 @@ binds {
     Mod+Shift+F {
         fullscreen-window
     }
-    Mod+M {
+    Mod+N {
         maximize-window-to-edges
     }
     Mod+Ctrl+F {
