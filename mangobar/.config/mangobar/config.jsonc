@@ -47,7 +47,7 @@
 			"format": " {:L%b%d·%A}"
 		},
 		"clock#time": {
-			"format": " {:L%H:%M}"
+			"format": " {:L%I:%M}"
 		},
 
     "network": {
