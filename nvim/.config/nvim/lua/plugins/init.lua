@@ -1,6 +1,5 @@
 local plugins = {
 	"https://github.com/sschleemilch/slimline.nvim",
-	"https://github.com/olimorris/onedarkpro.nvim",
 	"https://github.com/neovim/nvim-lspconfig",
 	"https://github.com/mason-org/mason.nvim",
 	"https://github.com/stevearc/conform.nvim",

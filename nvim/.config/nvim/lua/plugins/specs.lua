@@ -1,7 +1,6 @@
 require("plugins.config.statusline")
 require("plugins.config.filetree")
 require("plugins.config.mason")
-require("plugins.config.theme")
 require("plugins.config.formatter")
 require("plugins.config.treesitter")
 require("plugins.config.autopairs")
